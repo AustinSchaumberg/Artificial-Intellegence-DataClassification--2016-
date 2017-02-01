@@ -1,0 +1,24 @@
+Austin Schaumberg Program/HW 3 Results.txt
+
+trainAgainstEX1 = examples2.txt + examples3.txt
+trainAgainstEX2 = examples1.txt + examples3.txt
+trainAgainstEX3 = examples1.txt + examples2.txt
+
+==============================================
+|Command Arguments                 | Accuracy|
+==============================================
+|3 trainAgainstEX1.txt examples1.txt = 0.68769|
+|3 trainAgainstEX2.txt examples2.txt = 0.70871|
+|3 trainAgainstEX3.txt examples3.txt = 0.67066|
+==============================================
+|K-Fold Cross-validation Equation:           |
+==============================================
+Example of K-fold cross-validation estimate of 
+performance = mean accuracy = 
+(PA1 + PA2 + ... + PAK)/K
+==============================================
+|Compute K-fold cross-validation of results: |
+==============================================
+(.68769 + .70871 + .67066)/3 = (2.06706)/3 =
+Answer = 0.68902
+==============================================
